@@ -27,7 +27,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 453948 | NAVARRO CLARAS, MARIO
 647973 | PERALTA MARTÍNEZ, SANTIAGO
 683546 | PÉREZ CANCER, BEATRIZ
-686329 | ROIG JIMENEZ, ANA
+686329 | ROIG JIMENEZ, ANA | [Repo] (https://github.com/anicacortes/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/anicacortes/lab2-big-ws.svg?branch=test)](https://travis-ci.org/anicacortes/lab2-big-ws) | Proved translation from Spanish to Chinese
 559207 | RUEDA MACÍAS, DANIEL
 610344 | SALUEÑA SEDILES, ASIER
 680182 | SANZ ALCAINE, JORGE
