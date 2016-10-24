@@ -34,4 +34,4 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 534521 | SANZ VIDAL, AITOR
 618051 | TOLON MARTÍN, CARLOS JAVIER | [Repo](https://github.com/ctolon22/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/ctolon22/lab2-big-ws.svg?branch=test)](https://travis-ci.org/ctolon22/lab2-big-ws) | New test: from Spanish to Russian.
 643821 | VELA GARCÍA, JUAN
-679609 | VIÑUALES SÁNCHEZ, PABLO
+679609 | VIÑUALES SÁNCHEZ, PABLO | [repo](https://github.com/strummerTFIU/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/strummerTFIU/lab2-big-ws.svg?branch=test)](https://travis-ci.org/strummerTFIU/lab2-big-ws) | Added translation test from greek to spanish.
