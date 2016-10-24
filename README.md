@@ -26,7 +26,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 650448 | MURILLO MAGDALENA, JAVIER | [Repo](https://github.com/javmurillo/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/javmurillo/lab2-big-ws.svg?branch=test)](https://travis-ci.org/javmurillo/lab2-big-ws) | Added a test in order to check the translation from spanish to basque.
 453948 | NAVARRO CLARAS, MARIO
 647973 | PERALTA MARTÍNEZ, SANTIAGO
-683546 | PÉREZ CANCER, BEATRIZ
+683546 | PÉREZ CANCER, BEATRIZ | [repo](https://github.com/beapc18/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/beapc18/lab2-big-ws.svg?branch=test)](https://travis-ci.org/beapc18/lab2-big-ws) | Added translation test from spanish to italian.
 686329 | ROIG JIMENEZ, ANA
 559207 | RUEDA MACÍAS, DANIEL
 610344 | SALUEÑA SEDILES, ASIER
