@@ -28,7 +28,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 647973 | PERALTA MARTÍNEZ, SANTIAGO
 683546 | PÉREZ CANCER, BEATRIZ
 686329 | ROIG JIMENEZ, ANA
-559207 | RUEDA MACÍAS, DANIEL
+559207 | RUEDA MACÍAS, DANIEL | [Repo](https://github.com/danirueda/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/danirueda/lab2-big-ws.svg?branch=test)](https://travis-ci.org/danirueda/lab2-big-ws) | Added a translation test from russian to spanish
 610344 | SALUEÑA SEDILES, ASIER
 680182 | SANZ ALCAINE, JORGE
 534521 | SANZ VIDAL, AITOR
