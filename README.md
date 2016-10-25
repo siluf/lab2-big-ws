@@ -18,7 +18,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 682531 | JUAN CIRIACO, ÁLVARO
 544393 | LAHOZ EGEA, CRISTINA | [Repo](https://github.com/cristinalahoz/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/cristinalahoz/lab2-big-ws.svg?branch=test)](https://travis-ci.org/cristinalahoz/lab2-big-ws) | Added tests that verifies correct translation from english to italian or french.
 622612 | MARTIN SEGURA, SERGIO
-681061 | MARTÍNEZ MENÉNDEZ, ALBERTO
+681061 | MARTÍNEZ MENÉNDEZ, ALBERTO | [Repo](https://github.com/Belberus/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/Belberus/lab2-big-ws.svg?branch=test)](https://travis-ci.org/Belberus/lab2-big-ws) | Added test for the translation from Spanish to Esperanto.
 576307 | MARTÍNEZ PÉREZ, ADRIAN
 540891 | MENENDEZ MOYA, FRANCISCO | [Repo](https://github.com/fmenemo/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/fmenemo/lab2-big-ws.svg?branch=test)](https://travis-ci.org/fmenemo/lab2-big-ws) | Added translation tests from spanish to german
 680882 | MORENO JIMENO, RUBÉN | [repo](https://github.com/nebur395/lab2-big-ws/) | [![Build Status](https://travis-ci.org/nebur395/lab2-big-ws.svg?branch=test)](https://travis-ci.org/nebur395/lab2-big-ws) | Added translation test from Spanish to Russian | | 
@@ -26,11 +26,11 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 650448 | MURILLO MAGDALENA, JAVIER | [Repo](https://github.com/javmurillo/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/javmurillo/lab2-big-ws.svg?branch=test)](https://travis-ci.org/javmurillo/lab2-big-ws) | Added a test in order to check the translation from spanish to basque.
 453948 | NAVARRO CLARAS, MARIO
 647973 | PERALTA MARTÍNEZ, SANTIAGO
-683546 | PÉREZ CANCER, BEATRIZ
+683546 | PÉREZ CANCER, BEATRIZ | [repo](https://github.com/beapc18/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/beapc18/lab2-big-ws.svg?branch=test)](https://travis-ci.org/beapc18/lab2-big-ws) | Added translation test from spanish to italian.
 686329 | ROIG JIMENEZ, ANA | [Repo](https://github.com/anicacortes/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/anicacortes/lab2-big-ws.svg?branch=test)](https://travis-ci.org/anicacortes/lab2-big-ws) | Proved translation from Spanish to Chinese
-559207 | RUEDA MACÍAS, DANIEL
+559207 | RUEDA MACÍAS, DANIEL | [Repo](https://github.com/danirueda/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/danirueda/lab2-big-ws.svg?branch=test)](https://travis-ci.org/danirueda/lab2-big-ws) | Added a translation test from russian to spanish.
 610344 | SALUEÑA SEDILES, ASIER
-680182 | SANZ ALCAINE, JORGE
+680182 | SANZ ALCAINE, JORGE | [TestRepo](https://github.com/sanz1995/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/sanz1995/lab2-big-ws.svg?branch=test)](https://travis-ci.org/sanz1995/lab2-big-ws) | Added translation tests from english to esperanto
 534521 | SANZ VIDAL, AITOR
 618051 | TOLON MARTÍN, CARLOS JAVIER | [Repo](https://github.com/ctolon22/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/ctolon22/lab2-big-ws.svg?branch=test)](https://travis-ci.org/ctolon22/lab2-big-ws) | New test: from Spanish to Russian.
 643821 | VELA GARCÍA, JUAN
