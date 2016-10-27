@@ -29,7 +29,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 683546 | PÉREZ CANCER, BEATRIZ | [repo](https://github.com/beapc18/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/beapc18/lab2-big-ws.svg?branch=test)](https://travis-ci.org/beapc18/lab2-big-ws) | Added translation test from spanish to italian.
 686329 | ROIG JIMENEZ, ANA | [Repo](https://github.com/anicacortes/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/anicacortes/lab2-big-ws.svg?branch=test)](https://travis-ci.org/anicacortes/lab2-big-ws) | Proved translation from Spanish to Chinese
 559207 | RUEDA MACÍAS, DANIEL | [Repo](https://github.com/danirueda/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/danirueda/lab2-big-ws.svg?branch=test)](https://travis-ci.org/danirueda/lab2-big-ws) | Added a translation test from russian to spanish.
-610344 | SALUEÑA SEDILES, ASIER
+610344 | SALUEÑA SEDILES, ASIER | [TestRepo](https://github.com/asierhandball/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/asierhandball/lab2-big-ws.svg?branch=test)](https://travis-ci.org/asierhandball/lab2-big-ws) | Added translation tests from english to armenian
 680182 | SANZ ALCAINE, JORGE | [TestRepo](https://github.com/sanz1995/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/sanz1995/lab2-big-ws.svg?branch=test)](https://travis-ci.org/sanz1995/lab2-big-ws) | Added translation tests from english to esperanto
 534521 | SANZ VIDAL, AITOR
 618051 | TOLON MARTÍN, CARLOS JAVIER | [Repo](https://github.com/ctolon22/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/ctolon22/lab2-big-ws.svg?branch=test)](https://travis-ci.org/ctolon22/lab2-big-ws) | New test: from Spanish to Russian.
