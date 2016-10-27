@@ -31,7 +31,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 559207 | RUEDA MACÍAS, DANIEL | [Repo](https://github.com/danirueda/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/danirueda/lab2-big-ws.svg?branch=test)](https://travis-ci.org/danirueda/lab2-big-ws) | Added a translation test from russian to spanish.
 610344 | SALUEÑA SEDILES, ASIER
 680182 | SANZ ALCAINE, JORGE | [TestRepo](https://github.com/sanz1995/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/sanz1995/lab2-big-ws.svg?branch=test)](https://travis-ci.org/sanz1995/lab2-big-ws) | Added translation tests from english to esperanto
-534521 | SANZ VIDAL, AITOR
+534521 | SANZ VIDAL, AITOR | [Repo](https://github.com/aitorsanz/lab2-big-ws/tree/master) | [![Build Status](https://travis-ci.org/aitorsanz/lab2-big-ws.svg?branch=master)](https://travis-ci.org/aitorsanz/lab2-big-ws) | New test: Swedish to Finnish
 618051 | TOLON MARTÍN, CARLOS JAVIER | [Repo](https://github.com/ctolon22/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/ctolon22/lab2-big-ws.svg?branch=test)](https://travis-ci.org/ctolon22/lab2-big-ws) | New test: from Spanish to Russian.
 643821 | VELA GARCÍA, JUAN | [repo](https://github.com/juan-vg/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/juan-vg/lab2-big-ws.svg?branch=test)](https://travis-ci.org/juan-vg/lab2-big-ws?branch=test) | Added new tests: from English to Urdu   &   from English to Swahili
 679609 | VIÑUALES SÁNCHEZ, PABLO | [repo](https://github.com/strummerTFIU/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/strummerTFIU/lab2-big-ws.svg?branch=test)](https://travis-ci.org/strummerTFIU/lab2-big-ws) | Added translation test from greek to spanish.
