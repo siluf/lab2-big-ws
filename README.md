@@ -6,7 +6,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 -------|-----------|------|--------------|-------------------|-------------|--------
 647002 | AGUILAR REQUENA, EDUARDO
 666156 | BAREA LÓPEZ, DANIEL | [repo](https://github.com/dbarelop/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/dbarelop/lab2-big-ws.svg?branch=test)](https://travis-ci.org/dbarelop/lab2-big-ws?branch=test) | Added support for language detection
-666179 | BARRIOS GIL, ÁLVARO
+666179 | BARRIOS GIL, ÁLVARO | [repo](https://github.com/deerter/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/deerter/lab2-big-ws.svg?branch=test)](https://travis-ci.org/deerter/lab2-big-ws) | Added translation test from japanese to english.
 612595 | BELTRÁN PIÑOL, VÍCTOR |[repo](https://github.com/Victorbp09/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/Victorbp09/lab2-big-ws.svg?branch=test)](https://travis-ci.org/Victorbp09/lab2-big-ws) | Explore translation between french and english
 683326 | BINTANED BASA, JESÚS | [jebiba95 test branch](https://github.com/jebiba95/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/jebiba95/lab2-big-ws.svg?branch=test)](https://travis-ci.org/jebiba95/lab2-big-ws?branch=test) | I implemented a test that verifies that correct translate a text in Spanish to Afrikaans.
 649003 | CAUDEVILLA CASAUS, JOSE ÁNGEL
