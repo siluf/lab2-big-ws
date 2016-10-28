@@ -12,7 +12,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 649003 | CAUDEVILLA CASAUS, JOSE ÁNGEL
 750846 | DAVID MOLINA, JOHN ALEXIS| [Repo](https://github.com/JohnD23/lab2-big-ws/tree/Test) | [![Build Status](https://travis-ci.org/JohnD23/lab2-big-ws.svg?branch=Test)](https://travis-ci.org/JohnD23/lab2-big-ws) | Modification to translation tests from English to eight languages
 529361 | DUMITRACHE , CATALIN  CONSTANTIN
-535621 | FRÍAS ZAPATER, MARTA ALMUDENA | [Repo](https://github.com/martafr/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/martafr/lab2-big-ws?branch=test)](https://travis-ci.org/martafr/lab2-big-ws) | Added translation test from Spanish to Azerbaijani.
+535621 | FRÍAS ZAPATER, MARTA ALMUDENA | [Repo](https://github.com/martafr/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/martafr/lab2-big-ws.svg?branch=test)](https://travis-ci.org/martafr/lab2-big-ws) | Added translation test from Spanish to Azerbaijani.
 680258 | GARCIA DE QUIROS GIMENEZ, JORGE
 680669 | GUIU PÉREZ, ALEJANDRO | [Repo](https://github.com/aguiu/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/aguiu/lab2-big-ws.svg?branch=test)](https://travis-ci.org/aguiu/lab2-big-ws) | Added translation test from spanish to italian.
 682531 | JUAN CIRIACO, ÁLVARO
