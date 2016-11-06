@@ -11,7 +11,7 @@ NIA    | User name | Repo | Build Status | What was explored | Alternative | Sco
 683326 | BINTANED BASA, JESÚS | [jebiba95 test branch](https://github.com/jebiba95/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/jebiba95/lab2-big-ws.svg?branch=test)](https://travis-ci.org/jebiba95/lab2-big-ws?branch=test) | I implemented a test that verifies that correct translate a text in Spanish to Afrikaans.
 649003 | CAUDEVILLA CASAUS, JOSE ÁNGEL
 750846 | DAVID MOLINA, JOHN ALEXIS
-529361 | DUMITRACHE , CATALIN  CONSTANTIN
+529361 | DUMITRACHE , CATALIN  CONSTANTIN | [Repo](https://github.com/catalindumitrache76/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/catalindumitrache76/lab2-big-ws.svg?branch=test)](https://travis-ci.org/jebiba95/lab2-big-ws?branch=test) | I implemented a test which verifies the translation between english and romanian. 
 535621 | FRÍAS ZAPATER, MARTA ALMUDENA
 680258 | GARCIA DE QUIROS GIMENEZ, JORGE
 680669 | GUIU PÉREZ, ALEJANDRO
