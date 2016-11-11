@@ -46,6 +46,6 @@ public class TranslatorEndpointTest {
 				+ port + "/ws", request);
 		assertNotNull(response);
 		assertThat(response, instanceOf(GetTranslationResponse.class));
-		assertThat(((GetTranslationResponse) response).getTranslation(), is("Esto es una prueba de servicio de traducciÃ³n"));
+		assertThat(((GetTranslationResponse) response).getTranslation(), is("Esto es una prueba de servicio de traducción"));
 	}	
 }
