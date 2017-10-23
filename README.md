@@ -10,6 +10,6 @@ This breaks the task `genJaxb`.
 Therefore, you must ensure that you runs this code with JDK 8.
 
 
-NIA    | User name | Repo | Build Status | What was explored | Special contribution | Score
+NIA    | User name | Repo | Build Status | What was explored | Review for :gift: | Score
 -------|-----------|------|--------------|-------------------|----------------------|--------
-       |           |      |              |                   |                      |
+|           |      |              |                   |                      |
