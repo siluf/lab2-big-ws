@@ -3,14 +3,13 @@ package translator.web.ws;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.embedded.LocalServerPort;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.util.ClassUtils;
 import org.springframework.ws.client.core.WebServiceTemplate;
-
 import translator.Application;
 import translator.web.ws.schema.GetTranslationRequest;
 import translator.web.ws.schema.GetTranslationResponse;
@@ -27,8 +26,8 @@ public class TranslatorEndpointTest {
 
 	private Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
 
-	@Value("${local.server.port}")
-	private int port = 0;
+	@LocalServerPort
+	private int port;
 
 	@Before
 	public void init() throws Exception {
@@ -46,6 +45,7 @@ public class TranslatorEndpointTest {
 				+ port + "/ws", request);
 		assertNotNull(response);
 		assertThat(response, instanceOf(GetTranslationResponse.class));
-		assertThat(((GetTranslationResponse) response).getTranslation(), is("Esto es una prueba de servicio de traducción"));
+		GetTranslationResponse translation = (GetTranslationResponse) response;
+		assertThat(translation.getTranslation(), is("Esto es una prueba de servicio de traducciÃ³n"));
 	}	
 }

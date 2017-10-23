@@ -1,12 +1,10 @@
 package translator.infrastructure;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpRequestBase;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
 import translator.exception.TranslatorException;
 
 @Component("yandexTranslator")

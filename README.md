@@ -2,36 +2,14 @@
 # Web Engineering 2016-2017 / Big Web Services
 Please, go to the [Wiki](https://github.com/UNIZAR-30246-WebEngineering/lab2-big-ws/wiki) in order to get the instructions for this assignment.
 
-NIA    | User name | Repo | Build Status | What was explored | Alternative | Score
--------|-----------|------|--------------|-------------------|-------------|--------
-647002 | AGUILAR REQUENA, EDUARDO | :x: | :x: | :x: | | :x:
-666156 | BAREA LÓPEZ, DANIEL | [repo](https://github.com/dbarelop/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/dbarelop/lab2-big-ws.svg?branch=test)](https://travis-ci.org/dbarelop/lab2-big-ws?branch=test) | Added support for language detection | | :heavy_check_mark:
-666179 | BARRIOS GIL, ÁLVARO | [repo](https://github.com/deerter/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/deerter/lab2-big-ws.svg?branch=test)](https://travis-ci.org/deerter/lab2-big-ws) | Added translation test from japanese to english. | | :heavy_check_mark:
-612595 | BELTRÁN PIÑOL, VÍCTOR |[repo](https://github.com/Victorbp09/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/Victorbp09/lab2-big-ws.svg?branch=test)](https://travis-ci.org/Victorbp09/lab2-big-ws) | Explore translation between french and english | | :heavy_check_mark:
-683326 | BINTANED BASA, JESÚS | [jebiba95 test branch](https://github.com/jebiba95/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/jebiba95/lab2-big-ws.svg?branch=test)](https://travis-ci.org/jebiba95/lab2-big-ws?branch=test) | I implemented a test that verifies that correct translate a text in Spanish to Afrikaans. | | :heavy_check_mark:
-649003 | CAUDEVILLA CASAUS, JOSE ÁNGEL | :x: | :x: | :x: | | :x:
-750846 | DAVID MOLINA, JOHN ALEXIS| [Repo](https://github.com/JohnD23/lab2-big-ws/tree/Test) | [![Build Status](https://travis-ci.org/JohnD23/lab2-big-ws.svg?branch=Test)](https://travis-ci.org/JohnD23/lab2-big-ws) | Modification to translation tests from English to eight languages | | :heavy_check_mark:
-529361 | DUMITRACHE , CATALIN  CONSTANTIN | [Repo](https://github.com/catalindumitrache76/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/catalindumitrache76/lab2-big-ws.svg?branch=test)](https://travis-ci.org/jebiba95/lab2-big-ws?branch=test) | I implemented a test which verifies the translation between english and romanian.  | | :heavy_check_mark:
-535621 | FRÍAS ZAPATER, MARTA ALMUDENA | [Repo](https://github.com/martafr/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/martafr/lab2-big-ws.svg?branch=test)](https://travis-ci.org/martafr/lab2-big-ws) | Added translation test from Spanish to Azerbaijani. | | :heavy_check_mark:
-680258 | GARCIA DE QUIROS GIMENEZ, JORGE | :x: | :x: | :x: | | :x:
-680669 | GUIU PÉREZ, ALEJANDRO | [Repo](https://github.com/aguiu/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/aguiu/lab2-big-ws.svg?branch=test)](https://travis-ci.org/aguiu/lab2-big-ws) | Added translation test from spanish to italian. | | :heavy_check_mark:
-682531 | JUAN CIRIACO, ÁLVARO | [Repo](https://github.com/aJuanCiri/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/aJuanCiri/lab2-big-ws.svg?branch=test)](https://travis-ci.org/aJuanCiri/lab2-big-ws) | Added test for the translation from Spanish to German | | :heavy_check_mark:
-544393 | LAHOZ EGEA, CRISTINA | [Repo](https://github.com/cristinalahoz/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/cristinalahoz/lab2-big-ws.svg?branch=test)](https://travis-ci.org/cristinalahoz/lab2-big-ws) | Added tests that verifies correct translation from english to italian or french. | | :heavy_check_mark:
-622612 | MARTIN SEGURA, SERGIO | :x: | :x: | :x: | | :x:
-681061 | MARTÍNEZ MENÉNDEZ, ALBERTO | [Repo](https://github.com/Belberus/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/Belberus/lab2-big-ws.svg?branch=test)](https://travis-ci.org/Belberus/lab2-big-ws) | Added test for the translation from Spanish to Esperanto. | | :heavy_check_mark:
-576307 | MARTÍNEZ PÉREZ, ADRIAN | [Repo](https://github.com/Electryk/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/Electryk/lab2-big-ws.svg?branch=test)](https://travis-ci.org/Electryk/lab2-big-ws) | Changed translation tests from english to bulgarian. | | :heavy_check_mark:
-540891 | MENENDEZ MOYA, FRANCISCO | [Repo](https://github.com/fmenemo/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/fmenemo/lab2-big-ws.svg?branch=test)](https://travis-ci.org/fmenemo/lab2-big-ws) | Added translation tests from spanish to german | | :heavy_check_mark:
-680882 | MORENO JIMENO, RUBÉN | [repo](https://github.com/nebur395/lab2-big-ws/) | [![Build Status](https://travis-ci.org/nebur395/lab2-big-ws.svg?branch=test)](https://travis-ci.org/nebur395/lab2-big-ws) | Added translation test from Spanish to Russian | | :heavy_check_mark:
-750849 | MOSQUERA ZAPATA, LUIS EDUARDO | [TestRepo](https://github.com/luisemz/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/luisemz/lab2-big-ws.svg?branch=test)](https://travis-ci.org/luisemz/lab2-big-ws) | Added translation tests from spanish to french and assertThat getResultCode is "ok" | | :heavy_check_mark:
-650448 | MURILLO MAGDALENA, JAVIER | [Repo](https://github.com/javmurillo/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/javmurillo/lab2-big-ws.svg?branch=test)](https://travis-ci.org/javmurillo/lab2-big-ws) | Added a test in order to check the translation from spanish to basque. | | :heavy_check_mark: 
-453948 | NAVARRO CLARAS, MARIO | :x: | :x: | :x: | | :x:
-647973 | PERALTA MARTÍNEZ, SANTIAGO | :interrobang: | :interrobang: | :interrobang:| | :interrobang:
-683546 | PÉREZ CANCER, BEATRIZ | [repo](https://github.com/beapc18/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/beapc18/lab2-big-ws.svg?branch=test)](https://travis-ci.org/beapc18/lab2-big-ws) | Added translation test from spanish to italian. | | :heavy_check_mark:
-686329 | ROIG JIMENEZ, ANA | [Repo](https://github.com/anicacortes/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/anicacortes/lab2-big-ws.svg?branch=test)](https://travis-ci.org/anicacortes/lab2-big-ws) | Proved translation from Spanish to Chinese | | :heavy_check_mark:
-559207 | RUEDA MACÍAS, DANIEL | [Repo](https://github.com/danirueda/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/danirueda/lab2-big-ws.svg?branch=test)](https://travis-ci.org/danirueda/lab2-big-ws) | Added a translation test from russian to spanish. | | :heavy_check_mark:
-610344 | SALUEÑA SEDILES, ASIER | [TestRepo](https://github.com/asierhandball/lab2-big-ws/tree/test2) | [![Build Status](https://travis-ci.org/asierhandball/lab2-big-ws.svg?branch=test2)](https://travis-ci.org/asierhandball/lab2-big-ws) | Added translation tests from english to armenian | | :heavy_check_mark:
-680182 | SANZ ALCAINE, JORGE | [TestRepo](https://github.com/sanz1995/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/sanz1995/lab2-big-ws.svg?branch=test)](https://travis-ci.org/sanz1995/lab2-big-ws) | Added translation tests from english to esperanto | | :heavy_check_mark:
-534521 | SANZ VIDAL, AITOR | [Repo](https://github.com/aitorsanz/lab2-big-ws/tree/master) | [![Build Status](https://travis-ci.org/aitorsanz/lab2-big-ws.svg?branch=master)](https://travis-ci.org/aitorsanz/lab2-big-ws) | New test: Swedish to Finnish | | :heavy_check_mark:
-618051 | TOLON MARTÍN, CARLOS JAVIER | [Repo](https://github.com/ctolon22/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/ctolon22/lab2-big-ws.svg?branch=test)](https://travis-ci.org/ctolon22/lab2-big-ws) | New test: from Spanish to Russian. | | :heavy_check_mark:
-643821 | VELA GARCÍA, JUAN | [repo](https://github.com/juan-vg/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/juan-vg/lab2-big-ws.svg?branch=test)](https://travis-ci.org/juan-vg/lab2-big-ws?branch=test) | Added new tests: from English to Urdu   &   from English to Swahili | | :heavy_check_mark:
-679609 | VIÑUALES SÁNCHEZ, PABLO | [repo](https://github.com/strummerTFIU/lab2-big-ws/tree/test) | [![Build Status](https://travis-ci.org/strummerTFIU/lab2-big-ws.svg?branch=test)](https://travis-ci.org/strummerTFIU/lab2-big-ws) | Added translation test from greek to spanish. | | :heavy_check_mark:
+*Note:* 
+This laboratory depends on the availability of the package `java.xml.bind`.
+This package is available in Java versions prior to JDK 9.
+Since the JDK 9 this package belongs to a module that is not be visible by default.
+This breaks the task `genJaxb`. 
+Therefore, you must ensure that you runs this code with JDK 8.
+
+
+NIA    | User name | Repo | Build Status | What was explored | Special contribution | Score
+-------|-----------|------|--------------|-------------------|----------------------|--------
+       |           |      |              |                   |                      |

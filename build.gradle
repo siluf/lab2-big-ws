@@ -1,26 +1,20 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE")
-    }
+plugins {
+    id 'org.springframework.boot' version '1.5.7.RELEASE'
 }
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
+apply plugin: 'eclipse-wtp'
 apply plugin: 'idea'
-apply plugin: 'spring-boot'
 
 sourceSets.main.java.srcDirs += "${buildDir}/generated-sources/jaxb"
 
-// tag::xsd[]
 task genJaxb {
     ext.sourcesDir = "${buildDir}/generated-sources/jaxb"
     ext.schema = "src/main/resources/translator.xsd"
 
 	inputs.file ext.schema
     outputs.dir ext.sourcesDir
+
 
     doFirst() {
         project.ant {
@@ -36,7 +30,6 @@ task genJaxb {
         
     }
 }
-// end::xsd[]
 
 task afterEclipseImport {
 	dependsOn "genJaxb"
@@ -45,7 +38,6 @@ task afterEclipseImport {
 compileJava.dependsOn genJaxb
 
 
-// tag::jaxb[]
 configurations {
     jaxb
 }
@@ -60,16 +52,11 @@ targetCompatibility = 1.8
 
 dependencies {
     compile "org.springframework.boot:spring-boot-starter-web-services"
-    compile "org.apache.httpcomponents:httpclient:4.5.2"
+    compile "org.apache.httpcomponents:httpclient"
     compile "wsdl4j:wsdl4j:1.6.3"
 
     jaxb 	"com.sun.xml.bind:jaxb-core:2.2.11"
     jaxb 	"com.sun.xml.bind:jaxb-xjc:2.2.11"
 
     testCompile "org.springframework.boot:spring-boot-starter-test"
-}
-
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.7'
 }

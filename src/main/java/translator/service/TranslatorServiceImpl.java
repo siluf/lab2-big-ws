@@ -2,14 +2,13 @@ package translator.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.concurrent.Future;
-
 import translator.domain.Language;
 import translator.domain.LanguageSourceTarget;
 import translator.domain.TranslatedText;
 import translator.domain.Translator;
 import translator.exception.TranslatorException;
+
+import java.util.concurrent.Future;
 
 @Service
 public class TranslatorServiceImpl implements TranslatorService {
@@ -33,7 +32,7 @@ public class TranslatorServiceImpl implements TranslatorService {
     private String getTranslation(Future<String> futureResult) {
         try {
             return futureResult.get();
-        } catch (Throwable e) {
+        } catch (Exception e) {
             log().error("Problems getting the translation", e);
             return "Error:" + e.getMessage();
         }
