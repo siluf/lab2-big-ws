@@ -13,3 +13,4 @@ Therefore, you must ensure that you runs this code with JDK 8.
 NIA    | User name | Repo | Build Status | What was explored | Review for :gift: | Score
 -------|-----------|------|--------------|-------------------|----------------------|--------
 |           |      |              |                   |                      |
+453948 | Mario Navarro Claras | [Repo](https://github.com/mnclaras/lab2-big-ws)| [![Build Status](https://api.travis-ci.org/mnclaras/lab2-big-ws.svg)](https://travis-ci.org/mnclaras/lab2-big-ws) | Added source language detection
