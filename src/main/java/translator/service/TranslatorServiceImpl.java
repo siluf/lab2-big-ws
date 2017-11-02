@@ -8,6 +8,7 @@ import translator.domain.TranslatedText;
 import translator.domain.Translator;
 import translator.exception.TranslatorException;
 
+import java.util.Collection;
 import java.util.concurrent.Future;
 
 @Service
@@ -35,6 +36,21 @@ public class TranslatorServiceImpl implements TranslatorService {
         } catch (Exception e) {
             log().error("Problems getting the translation", e);
             return "Error:" + e.getMessage();
+        }
+    }
+
+    @Override
+    public Language detectLanguage(String text, Collection<Language> hints) {
+        Future<Language> languageDetectorResult = translator.detectLanguage(text, hints);
+        return getDetectedLanguage(languageDetectorResult);
+    }
+
+    private Language getDetectedLanguage(Future<Language> futureResult) {
+        try {
+            return futureResult.get();
+        } catch (Exception e) {
+            log().error("Problems detecting the language", e);
+            return null;
         }
     }
 }
