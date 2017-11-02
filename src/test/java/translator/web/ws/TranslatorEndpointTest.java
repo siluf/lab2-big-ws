@@ -11,8 +11,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.util.ClassUtils;
 import org.springframework.ws.client.core.WebServiceTemplate;
 import translator.Application;
+import translator.domain.Language;
 import translator.web.ws.schema.GetTranslationRequest;
 import translator.web.ws.schema.GetTranslationResponse;
+import translator.web.ws.schema.GetTranslationWithLanguageDetectionRequest;
+import translator.web.ws.schema.GetTranslationWithLanguageDetectionResponse;
 
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.hamcrest.CoreMatchers.is;
@@ -31,7 +34,9 @@ public class TranslatorEndpointTest {
 
 	@Before
 	public void init() throws Exception {
-		marshaller.setPackagesToScan(ClassUtils.getPackageName(GetTranslationRequest.class));
+		marshaller.setPackagesToScan(
+				ClassUtils.getPackageName(GetTranslationRequest.class),
+				ClassUtils.getPackageName(GetTranslationWithLanguageDetectionRequest.class));
 		marshaller.afterPropertiesSet();
 	}
 
@@ -47,5 +52,19 @@ public class TranslatorEndpointTest {
 		assertThat(response, instanceOf(GetTranslationResponse.class));
 		GetTranslationResponse translation = (GetTranslationResponse) response;
 		assertThat(translation.getTranslation(), is("Esto es una prueba de servicio de traducción"));
-	}	
+	}
+
+	@Test
+	public void testSendAndReceiveWithLanguageDetection() {
+		GetTranslationWithLanguageDetectionRequest request = new GetTranslationWithLanguageDetectionRequest();
+		request.setLangTo(Language.ENGLISH.asStr());
+		request.setText("Hola mundo");
+		Object response = new WebServiceTemplate(marshaller).marshalSendAndReceive("http://localhost:"
+				+ port + "/ws", request);
+		assertNotNull(response);
+		assertThat(response, instanceOf(GetTranslationWithLanguageDetectionResponse.class));
+		GetTranslationWithLanguageDetectionResponse translation = (GetTranslationWithLanguageDetectionResponse) response;
+		assertThat(translation.getTranslation(), is("Hello world"));
+	}
+
 }
