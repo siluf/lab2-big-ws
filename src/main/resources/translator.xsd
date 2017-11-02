@@ -21,4 +21,23 @@
         </xs:complexType>
     </xs:element>
 
+    <xs:element name="getTranslationWithLanguageDetectionRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="text" type="xs:string"/>
+                <xs:element name="langTo" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getTranslationWithLanguageDetectionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="resultCode" type="xs:string"/>
+                <xs:element name="errorMsg" type="xs:string"/>
+                <xs:element name="translation" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
 </xs:schema>
